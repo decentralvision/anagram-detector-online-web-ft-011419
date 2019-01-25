@@ -10,6 +10,7 @@ class Anagram
     arr.map do |word|
       word_arr = @word_arr
       test_word_arr = word.split
+      binding.pry
       test_word_arr.each do |char|
         if word_arr.include?(char)
           word_arr - char
