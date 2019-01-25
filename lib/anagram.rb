@@ -18,6 +18,8 @@ class Anagram
       end
       if word_arr.empty? && test_word_arr.empty?
         word
+      else
+        []
       end
     end
   end
