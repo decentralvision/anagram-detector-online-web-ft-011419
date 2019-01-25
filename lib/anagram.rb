@@ -13,7 +13,7 @@ class Anagram
       test_word_arr.each do |char|
         if word_arr.include?(char)
           binding.pry
-          word_arr - char
+          word_arr - %w(char)
           test_word_arr - char
         end
       end
