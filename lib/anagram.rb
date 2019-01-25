@@ -14,6 +14,7 @@ class Anagram
         if word_arr.include?(char)
           word_arr - char
           test_word_arr - char
+          binding.pry
         end
       end
       if word_arr.empty? && test_word_arr.empty?
