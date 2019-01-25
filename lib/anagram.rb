@@ -5,7 +5,7 @@ class Anagram
     @word_arr = word.split
   end
   def match(arr)
-    arr.collect do |word|
+    arr.map do |word|
       word_arr = @word_arr
       test_word_arr = word.split
       test_word_arr.each do |char|
