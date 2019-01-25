@@ -17,6 +17,7 @@ class Anagram
         end
       end
       if word_arr.empty? && test_word_arr.empty?
+        binding.pry
         word
       end
     end
