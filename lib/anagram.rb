@@ -18,6 +18,6 @@ class Anagram
       end
       if word_arr.empty? && test_word_arr.empty?
         word
-    end
+    end.compact
   end
 end
