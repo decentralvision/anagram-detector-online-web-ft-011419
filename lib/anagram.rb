@@ -15,7 +15,7 @@ class Anagram
         end
       end
       if word_arr.empty? && test_word_arr.empty?
-        word_arr
+        word
       end
     end
   end
