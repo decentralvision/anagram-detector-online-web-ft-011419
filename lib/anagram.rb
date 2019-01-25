@@ -14,7 +14,7 @@ class Anagram
         if word_arr.include?(char)
           binding.pry
           word_arr - %w(char)
-          test_word_arr - char
+          test_word_arr - %w(char)
         end
       end
       if word_arr.empty? && test_word_arr.empty?
