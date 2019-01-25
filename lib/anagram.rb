@@ -4,7 +4,7 @@ require 'pry'
 class Anagram
   attr_accessor :word_arr
   def initialize(word)
-    @word_arr = word.split
+    @word_arr = word.split('')
   end
   def match(arr)
     arr.map do |word|
