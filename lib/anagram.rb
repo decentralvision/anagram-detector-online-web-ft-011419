@@ -12,9 +12,10 @@ class Anagram
       test_word_arr = word.split('')
       test_word_arr.each do |char|
         if word_arr.include?(char)
+          binding.pry
           word_arr - char
           test_word_arr - char
-          binding.pry
+
         end
       end
       if word_arr.empty? && test_word_arr.empty?
