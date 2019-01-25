@@ -15,7 +15,6 @@ class Anagram
           binding.pry
           word_arr - char
           test_word_arr - char
-
         end
       end
       if word_arr.empty? && test_word_arr.empty?
