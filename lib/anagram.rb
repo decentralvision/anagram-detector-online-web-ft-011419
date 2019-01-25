@@ -9,7 +9,7 @@ class Anagram
   def match(arr)
     arr.map do |word|
       word_arr = @word_arr
-      test_word_arr = word.split
+      test_word_arr = word.split('')
       binding.pry
       test_word_arr.each do |char|
         if word_arr.include?(char)
